@@ -1,0 +1,1868 @@
+html{
+    font-size: 15px;
+    scroll-behavior: smooth;
+   
+}
+
+#sticky{
+    position: sticky;
+    top: 0px;
+    z-index: 1090;
+
+}
+
+body{
+    font-weight: 400;
+    line-height: 1.5;
+    color: #52565b;
+    
+}
+
+*{
+    font-family: 'Heebo', sans-serif;
+    font-family: "Nunito",sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+.inner{
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+
+   
+}
+
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+/* header starts here */
+header{
+    
+background-color:white;
+width: 100%;
+height: 78px;
+    nav{
+        .heading{
+            float: left;
+            color: #06BBCC;
+            font-size: 1.5rem;
+            
+            h1{
+                margin-top: 0px;
+                font-weight: 700;
+                position: relative;
+                bottom: 11px;
+                margin-left:-15px;
+                margin-right: -15px;
+            }
+            
+        }
+
+        ul{
+            float: right;
+
+            li{
+                float: left;
+                list-style: none;
+
+                a{
+                    color: black;
+                    font-weight: 700;
+                    margin-right:30px;
+                    text-decoration: none;
+                    position: relative;
+                    left: 30px;
+                    bottom: 0px;
+                    font-size: 14px;
+                    transition: .5s;
+            
+                }
+
+                a:hover{
+                    color: #06BBCC;
+                }
+            }
+
+            #join{
+                background-color: #06BBCC;
+                padding: 32px 50px;
+                position: relative;
+                left: 30px;
+                color: white;
+                bottom: 0px;
+                font-weight: 700;
+                text-decoration: none;
+            }
+        }
+
+        .none{
+            display: none;
+        }
+        
+        padding: 25px 30px;
+        height: 50px;
+       
+
+    }
+}
+
+
+
+.top{
+    clear: both;
+}
+
+.item1 {
+    
+        width: 100%;
+        background:rgba(24, 29, 56, .7) url("../img/carousel-1.jpg");
+        background-blend-mode: darken;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 780px;
+    
+
+    .banner-text{
+            position: relative;
+            top: 180px;
+        h5{
+            font-size: 1.25rem;
+            color: #06BBCC;
+            font-weight: 700;
+        }
+
+        h1{
+            font-size: 4rem;
+            color: white;
+            line-height: 1.2;
+            font-weight: 800;
+        }
+
+        p{
+            font-size: 1.25rem;
+            color: white;
+            line-height: 1.2;
+        }
+
+        a{
+            padding: 1.25rem 3rem;
+            background-color:white;
+            font-family: "Nunito",sans-serif;
+            text-decoration: none;
+            color: black;
+            transition: 1s;
+
+        }
+
+        a:hover{
+            opacity: 0.9;
+        }
+
+
+    }
+}
+
+.item2 {
+
+    
+    width: 100%;
+    background:rgba(24, 29, 56, .7) url("../img/carousel-2.jpg");
+    background-blend-mode: darken;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 780px;
+
+
+    .banner-text{
+        position: relative;
+        top: 180px;
+        h5{
+            font-size: 1.25rem;
+            color: #06BBCC;
+            font-weight: 700;
+        }
+
+        h1{
+            font-size: 4rem;
+            color: white;
+            line-height: 1.2;
+            font-weight: 800;
+        }
+
+        p{
+            font-size: 1.25rem;
+            color: white;
+            line-height: 1.2;
+        }
+
+        a{
+            padding: 1.25rem 3rem;
+            background-color:white;
+            font-family: "Nunito",sans-serif;
+            text-decoration: none;
+            color: black;
+            transition: 1s;
+
+        }
+
+        a:hover{
+            opacity: 0.9;
+        }
+    }    
+}
+
+// owl carousel starts here
+
+
+
+.top .owl-prev,.owl-next{
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: 1.7rem !important;
+    font-weight: 500 !important;
+}
+
+.top .owl-nav{
+    color: white;
+}
+
+.top .owl-prev{
+    right: 50px;
+    top: 50%;
+    border: 1px solid white !important;
+    width: 50px;
+    height: 50px;
+    margin-top: -80px !important;
+    transition: 2s;
+    
+}
+
+.top .owl-next{
+    right: 50px;
+    top: 50%;
+    border: 1px solid white !important;
+    width: 50px;
+    height: 50px;
+    margin-top: -10px !important;
+    transition: 2s;
+}
+
+.top .owl-next:hover{
+    background-color: #06BBCC !important;
+    border: 0px !important;
+}
+
+.top .owl-prev:hover{
+    background-color: #06BBCC !important;
+    border: 0px !important;
+}
+
+.owl-theme .owl-nav [class*=owl-]{
+    margin: 100px;
+}
+
+// services starts here
+
+.services{
+    padding: 80px 15px;
+
+    .skilled{
+        width: 23.5%;
+        text-align: center;
+        font-family: "Nunito",sans-serif;
+        background-color: #F0FBFC;
+        padding: 35px;
+        transition: 1s;
+    
+        i{
+            font-size: 3rem;
+            color: #06BBCC;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            
+    
+        }
+    
+        h5{
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+    
+        p{
+            font-size: 1.1rem;
+        }
+    }
+
+    .skilled:hover{
+        background-color: #06BBCC;
+        transform: translatey(-15px);
+        .fa{
+            color: white;
+        }
+
+        h5{
+            color: white;
+        }
+
+        p{
+            color: white;
+            font-size: 1.1rem; 
+        }
+    }
+}
+
+// about starts here
+.about{
+    font-family: "Nunito",sans-serif;
+    margin-bottom: -40px;
+    .left{
+        width:48%;
+
+        img{
+            width: 100%;
+            height: 85%;
+        }
+    }
+
+    .right{
+        width: 48%;
+        position: relative;
+
+        h6{
+            font-size: 1rem;
+            color: #06BBCC;
+        }
+
+        h6::before{
+            content: "";
+            display: block;
+            position: absolute;
+            width: 8%;
+            height: 3px;
+            background-color: #06BBCC;
+            top: 5px;
+            left: 90px;
+        }
+
+        
+        h6::after{
+            content: "";
+            display: block;
+            position: absolute;
+            width: 13%;
+            height: 2.2px;
+            background-color: #06BBCC;
+            top: 13px;
+            left: 90px;
+        }
+
+        h1{
+            font-size: 2.375rem;
+        }
+
+        p{
+            font-size: 1.1rem;
+            line-height: 2rem;
+        }
+
+        .right-left{
+            width: 48%;
+            float: left;
+            
+        
+            
+        }
+
+        .right-right{
+            width: 48%;
+            float: right;
+    
+        }
+
+        a{
+            padding: 1.2rem 3rem;
+            background-color: #06BBCC;
+            color: white;
+            font-family: "Nunito",sans-serif;
+            position: relative;
+            top: 1rem;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: 1s;
+
+        }
+
+        a:hover{
+            opacity: 0.6;
+        }
+
+        .fa{
+            color:#06BBCC;
+        }
+    }
+}
+
+// CATEGORIES starts here
+.CATEGORIES{
+    text-align: center;
+    padding: 30px;
+    font-family: "Nunito",sans-serif;
+    position: relative;
+    
+    h6{
+        color: #06BBCC;
+        font-size: 1.2rem;
+    
+    }
+
+
+
+    h1{
+        color: #181d38;
+        font-size: 2.5rem;
+    }
+}
+
+// course starts here
+
+.course{
+    padding:0px 15px 80px 15px;
+    font-family: "Nunito",sans-serif;
+
+    .course-left{
+        position: relative;
+        width: 57%;
+
+        .course-left-left{
+            width: 48.8%;
+            position: relative;
+  
+        }
+
+        .web-design{
+            position: absolute;
+            right: 1px;
+            top: 176px;
+            background-color: white;
+            padding: 10px 15px;
+        
+
+            h5{
+                font-size: 1.25rem;
+
+            }
+
+            small{
+                color: #06BBCC;
+                font-size: 1.1rem;
+                margin-left: 10px;
+            }
+        }
+
+        
+
+        .graphic-design{
+            position: absolute;
+            right: 1px;
+            bottom: 1px;
+            background-color: white;
+            padding: 10px 15px;
+
+            h5{
+                font-size: 1.25rem;
+
+            }
+
+            small{
+                color: #06BBCC;
+                font-size: 1.1rem;
+                margin-left: 10px;
+            }
+        }
+
+        .wrapper{
+            position: relative;
+            top: 18px;
+        }
+
+    }
+    .course-right{
+        width: 41.5%;
+        position: relative;
+
+        .online-marketing{
+            position: absolute;
+            right: 1px;
+            bottom: 1px;
+            background-color: white;
+            padding: 10px 15px;
+
+            h5{
+                font-size: 1.25rem;
+
+            }
+
+            small{
+                color: #06BBCC;
+                font-size: 1.1rem;
+                margin-left: 10px;
+            }
+        }
+
+    }
+
+    .img{
+        overflow: hidden;
+
+        img{
+            width: 100%;
+            transition: 0.5s;
+            display: block;
+        }
+
+    
+    }
+
+    .img:hover img{
+        transform: scale(1.2);
+    }
+}
+
+// popular starts here
+.popular{
+
+    padding:0px 15px 30px 15px;
+    font-family: "Nunito",sans-serif;
+    text-align: center;
+    position: relative;
+
+    h6{
+        color: #06BBCC;
+        font-size: 1.2rem;
+    }
+
+    h1{
+        color: #181d38;
+        font-size: 2.5rem;
+    }
+}
+
+
+// popular courses starts here
+.popular-courses{
+    padding:0px 15px 80px 15px;
+    text-align: center;
+    
+
+    .left{
+        width: 32%;
+        position: relative;
+
+
+    }
+
+    .box{
+        background-color: #F0FBFC;
+        padding: 25px;
+
+        h3{
+            font-size: 2rem;
+            color: #181d38;
+        }
+
+        .icons{
+            .fa{
+                color: #06BBCC;
+            }
+        }
+
+        h5{
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            color: #181d38;
+        }
+
+        .border-top{
+            border-top: 1px solid lightgrey;
+            font-family: 'Heebo', sans-serif;
+            width: 100%;
+            
+            i{
+                padding-top: 10px;
+                color: #181d38;
+            }
+
+            .fa{
+                color: #06BBCC !important;
+            }
+                 
+        }
+    }
+
+    .image{
+        overflow: hidden;
+
+        img{
+            width: 100%;
+            display: block;
+            transition: 0.5s;
+            height: auto;
+        }
+
+
+    }
+
+    .image:hover img{
+        transform: scale(1.2);
+    }
+
+
+    .read-more{
+        position: absolute;
+        top:200px;
+        left:110px;
+        
+        
+
+        a{
+            text-decoration: none;
+            color:white;
+            padding: .5rem;
+            background-color: #06BBCC;
+            margin: -2px;
+            font-weight: 600;
+            font-size: .925rem;
+            font-family: "Nunito",sans-serif;
+        }
+    }
+}
+
+
+// INSTRUCTORS starts here starts here
+
+.instructors{
+    text-align: center;
+    position: relative;
+    padding: 0px 15px 30px 15px;
+    h6{
+        color: #06BBCC;
+        font-size: 1.2rem;
+    }
+
+    h1{
+        color: #181d38;
+        font-size: 2.5rem;
+    }
+
+
+}
+
+// team starts here
+.team{
+    padding:0px 15px 80px 15px;
+    
+    .team-img{
+        position: relative;
+        width: 24%;
+        
+        .img{
+            overflow: hidden;
+
+            img{
+                width: 100%;
+                transition: 0.5s;
+                display: block;
+            }
+        }
+        .img:hover img{
+            transform: scale(1.2);
+        }
+
+
+    }
+
+
+    .icons{
+        background-color: #F0FBFC;
+        position: absolute;
+        padding: 10px;
+        left: 72px;
+        margin-top: -24px;
+    
+
+
+        .fab{
+            color: white;
+            background-color: #06BBCC;
+            text-align: center;
+            padding: 10px;
+            margin: 0px 2px;
+            transition: 1s;
+        }
+
+        .fab:hover{
+            background-color: white;
+            color: #06BBCC;
+        }
+    }
+
+    .team-text{
+        padding: 2.5rem 2.5rem 2rem 2.5rem;
+        text-align: center;
+        background-color: #F0FBFC;
+        margin-top: -6px;
+
+        h5{
+            font-size: 1.25rem;
+            color: #181d38;
+        }
+
+        small{
+            font-size: 0.875rem;
+        }
+    }
+}
+
+
+// testimonials starts here
+.testimonials{
+    text-align: center;
+    position: relative;
+    padding: 0px 15px 30px 15px;
+
+
+
+    
+    h6{
+        color: #06BBCC;
+        font-size: 1.2rem;
+    }
+
+
+    h1{
+        color: #181d38;
+        font-size: 2.5rem;
+    }
+}
+
+
+// owl carousel testiomonials starts here
+.item-1{
+    text-align: center;
+    // padding:0px 15px 80px 15px;
+    img{
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 100%;
+        border: 5px solid #F2F2F2;
+        
+    }
+
+    h5{
+        font-size: 1.25rem;
+        color: #181d38;
+        margin-top: 1rem;
+    }
+
+    p{
+        margin-bottom: 1rem;
+        
+    }
+
+    .testimonial-text{
+        padding: 20px;
+        background-color: #F0FBFC;
+       
+
+        p{
+            margin-bottom: 0px;
+            font-size: 1.1rem;
+        }
+    }
+}
+
+
+.owl-theme .owl-dots .owl-dot span{
+    height: 15px;
+    width: 15px;
+    border-radius: 0px;
+    margin-bottom: 80px;
+    
+}
+
+// footer starts here
+.bigwrapper{
+    background-color: #181d38;
+    padding: 2.5rem 15px;
+    color: white;
+
+        
+    footer{
+        .quick{
+            width: 24%;
+
+            a{
+                display: block;
+                text-decoration: none;
+                color: white;
+                transition: 0.5s;
+                padding: 5px 0px;
+            }
+
+            a:hover{
+                letter-spacing: 1px;
+            }
+        }
+
+        .contact{
+            width: 24%;
+
+            p{
+                i{
+                    .fa{
+                        font-size: 20px;
+                        color: white;
+                        
+                    }
+                }
+
+                line-height: 30px;
+            }
+
+            .social-icons{
+                .fab{
+                    font-size: 20px;
+                    color: white;
+                    border: 1px solid  white;
+                    padding: 7px;
+                    margin-right: 5px;
+                    margin-top: 1rem;
+                    transition: .5s
+                }
+
+                .fab:hover{
+                    background: white;
+                    color: #06BBCC;
+                }
+            }
+        }
+
+        .gallery{
+            width: 24%;
+
+            .gallery-images-1{
+                img{
+                    width: 30%;
+                    border: 5px solid #F0FBFC;
+                }
+            }
+        }
+
+        .news{
+            width: 24%;
+
+            input{
+                background-color: white;
+                padding: 20px;
+                position: relative;
+                width: 100%;
+                top: 20px;
+            }
+
+            button{
+                position: absolute;
+                right: 183px;
+                padding: 12px;
+                border: 0px;
+                margin-top: 30.1px;
+                background-color: #06BBCC;
+                color: white;
+                font-weight: 700;
+                transition: 0.5s;
+            }
+
+            button:hover{
+                opacity: 0.7;
+            }
+        }
+
+
+    }
+
+    h4{
+        font-size: calc(1.275rem + .3vw);
+        margin-bottom: 1rem;
+    }
+
+    .copyright{
+        border-top: 1px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+        border-top: 1px solid rgba(256, 256, 256, .1);
+    }
+    
+    
+    
+        
+    .left{
+        width: 50%;
+    }
+
+    .right{
+        width: 50%;
+        text-align: right;
+
+        a{
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+
+    }
+
+    
+
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+
+
+// media queries starts here
+@media only screen and (max-width:1036px){
+    header nav ul{
+        display: none;
+        
+    }
+
+    header nav .none{
+        display: block;
+        float: right;
+        font-size: 25px;
+        border: 1px solid lightgray;
+        padding: 5px 10px;
+        margin: -6px -10px;
+        border-radius: 2px
+
+    }
+
+    header nav ul #join{
+        display:none;
+    }
+
+    header nav ul{
+        display:none;
+        float: left;
+    }
+
+    header nav ul li {
+        float: none;
+        list-style: none;
+        position: relative;
+        left: -240px;
+        line-height: 50px;
+        top: 50px;
+        transition: 0.5s;
+        width: 200px;
+        background-color: white;
+    }
+
+    .item2 .banner-text h1{
+        font-size: 3rem;
+    }
+
+    .item1 .banner-text h1{
+        font-size: 3rem;
+    }
+
+    .item1 .banner-text{
+        top: 160px;
+    }
+
+    .item2 .banner-text{
+        top: 160px;
+    }
+
+    .top .owl-next{
+        right: -85px;
+        top: 55%;
+    }
+
+    .top .owl-prev{
+        right: -85px;
+        top: 55%;
+    }
+
+    .about .right p{
+        font-size: 1rem;
+        line-height: 22px;
+    }
+
+    .course .course-left .web-design{
+        top: 141px;
+    }
+
+    .popular-courses .read-more{
+        position: absolute;
+        top: 170px;
+        left: 84px;
+    }
+
+    .popular-courses .box .border-top i{
+        font-size: 0.8rem;
+    }
+
+    .popular-courses .box .icons .fa{
+        font-size: 0.8rem;
+    }
+
+    .popular-courses .box h3{
+        font-size: 1.5rem;
+    }
+
+    .popular-courses .box h5{
+        font-size: 1.1rem;
+    }
+
+    .team .icons{
+        left: 53px;
+    }
+
+    header nav ul li{
+        left: -225px;
+    }
+
+    header nav ul{
+        height: 350px;
+        width: 200px;
+    }
+
+    header nav ul li{
+        left: -225px;
+    }
+
+    header nav ul{
+        height: 350px;
+        width: 0px;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .about .right h1{
+        font-size: 2rem;
+    }
+
+    .about .right p{
+        font-size: 0.9rem;
+    }
+
+    .about .right a{
+        padding: 1rem 2rem;
+    }
+
+    .course .course-left .web-design{
+        top: 139px;
+    }
+
+    .course .course-left .web-design h5{
+        font-size: 1rem;
+    }
+
+    .course .course-left .web-design small{
+        font-size: 0.9rem;
+    }
+
+    .course .course-left .graphic-design small{
+        font-size: 0.9rem;
+    }
+
+    .course .course-left .graphic-design h5{
+        font-size: 1rem;
+    }
+
+    .course .course-right .online-marketing small{
+        font-size: 0.9rem;
+    }
+
+    .course .course-right .online-marketing h5{
+        font-size: 1rem;
+    }
+
+    header nav ul li{
+        left: -225px;
+        width: 200px;
+        background-color: white;
+        top: 50px;
+    }
+
+    header nav ul{
+        height: 350px;
+        width: 0px;
+    }
+
+
+}
+
+@media only screen and (max-width:900px){
+    .item1 .banner-text p{
+        font-size: 1rem;
+    }
+
+    .services .skilled{
+        width: 49%;
+        margin-bottom: 15px;
+    }
+
+    .about .right h1{
+        font-size: 1.9rem;
+        margin-top: -20px;
+    }
+
+    .about .right a{
+        font-size: 0.8rem;
+        top: -0.3rem;
+    }
+
+
+    .CATEGORIES{
+        margin-top: 20px;
+    }
+
+    .team .team-text h5{
+        font-size: 1rem;
+    }
+
+    .team .icons{
+        left: 35px;
+    }
+
+    .bigwrapper footer .quick {
+        width: 49%;
+    }
+    .bigwrapper footer .contact {
+        width: 49%;
+       
+    }
+      .bigwrapper footer .news {
+        width: 49%;
+        position: relative;
+        top: 25px;
+        
+    }
+      .bigwrapper footer .gallery{
+        width: 49%;
+        position: relative;
+        top: 25px;
+    }
+
+    .bigwrapper footer .news button{
+        position: absolute;
+        right: 9px;
+    }
+
+    header nav ul li{
+        left: -225px;
+        width: 200px;
+        background-color: white;
+        top: 50px;
+    }
+
+    header nav ul{
+        height: 350px;
+        width: 0px;
+    }
+}
+
+@media only screen and (max-width:769px){
+    .item1 .banner-text{
+        top: 210px;
+    }
+
+    .item2 .banner-text{
+        top: 210px;
+    }
+
+    .item2 .banner-text p{
+        font-size: 1rem;
+    }
+
+    .about .left img{
+        height: auto;
+    }
+
+    .about .right p{
+        position: relative;
+        bottom: 20px;
+    }
+
+    .about .right a{
+        display: none;
+    }
+
+    .CATEGORIES{
+        margin-top: 60px;
+    }
+
+    .CATEGORIES h1{
+        font-size: 2rem;
+    }
+
+    .CATEGORIES h6{
+        font-size: 1rem;
+    }
+
+    .course .course-left .web-design{
+        top: 92px;
+    }
+
+    .course .course-left .wrapper{
+        top: 10px;
+    }
+
+    .popular h6{
+        font-size: 1rem;
+    }
+
+    .popular h1{
+       font-size: 2rem;
+    }
+
+    .popular-courses .read-more a{
+        font-size: 0.7rem;
+    }
+
+    .popular-courses .read-more{
+        top: 120px;
+        left: 50px;
+    }
+
+    .popular-courses .box h3{
+        font-size: 1.2rem;
+    }
+
+    .popular-courses .box .icons .fa{
+        font-size: 0.7rem;
+    }
+
+    .icons span{
+        font-size: 0.7rem;
+    }
+
+    .popular-courses .box h5{
+        font-size: 0.9rem;
+    }
+
+    .instructors h6{
+        font-size: 1rem;
+    }
+
+    .instructors h1{
+        font-size: 2rem;
+    }
+
+    .team .team-img{
+        width: 49%;
+        margin-bottom: 15px;
+    }
+
+    .team .team-text h5{
+        font-size: 1.3rem;
+    }
+
+    .team .icons{
+        left: 115px;
+    }
+
+    .testimonials h6{
+        font-size: 1rem;
+    }
+
+    .testimonials h1{
+        font-size: 2rem;
+    }
+
+    header nav ul li{
+        left: -225px;
+        width: 200px;
+        background-color: white;
+        top: 50px;
+    }
+
+    header nav ul{
+        height: 350px;
+        word-wrap: 0px;
+    }
+
+}
+
+@media only screen and (max-width:700px){
+    .item2{
+        height: 470px;
+    }
+
+    .item1{
+        height: 470px;
+    }
+
+    .item2 .banner-text{
+        top: 85px;
+    }
+
+    .item1 .banner-text{
+        top: 85px;
+    }
+
+    .item1 .banner-text h1{
+        font-size: 2rem;
+    }
+
+    .item2 .banner-text h1{
+        font-size: 2rem;
+    }
+
+    .item1 .banner-text a{
+        padding: 1rem 2rem;
+    }
+
+    .item2 .banner-text a{
+        padding: 1rem 2rem;
+    }
+
+    .services .skilled{
+        width: 100%;
+    }
+
+    .about .left{
+        width: 100%;
+    }
+
+    .about .right{
+        width: 100%;
+    }
+
+    .about .right p{
+        font-size: 1rem;
+    }
+
+    .about .right a{
+        display:inline-block;
+    }
+
+    .about .right p{
+        bottom: 5px;
+        line-height: 25px;
+    }
+
+    .about .right h1{
+        margin-top: 0px;
+    }
+
+    .about .right h6{
+        margin-top: 10px;
+    }
+
+    .about .right h6::before{
+        top: 15px;
+    }
+
+    .about .right h6::after{
+        top: 24px;
+    }
+
+    .course .course-right{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .course .course-left{
+        width: 100%;
+        
+    }
+
+    .course .course-left .course-left-left{
+        width: 49.3%;
+    }
+
+    .course .course-left .web-design{
+        top: 185px;
+    }
+
+    .popular-courses .left{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .popular-courses .box h3{
+        font-size: 2rem;
+    }
+
+    .popular-courses .box .icons .fa{
+        font-size: 1rem;
+    }
+
+    .icons span{
+        font-size: 1rem;
+    }
+
+    .popular-courses .box h5{
+        font-size: 1.5rem;
+    }
+
+    .popular-courses .box .border-top i{
+        font-size: 1rem;
+    }
+
+    .team .icons{
+        left: 98px;
+    }
+
+    header nav ul li{
+        left: -225px;
+        width: 200px;
+        background-color: white;
+        top: 50px;
+    }
+
+    header nav ul{
+        height: 350px;
+        width: 0px;
+    }
+}
+
+@media only screen and (max-width:541px){
+    .course .course-left .course-left-left{
+        width: 100%;
+
+    }
+
+    .course .course-left .web-design{
+        top: 88px;
+        z-index: 1;
+    }
+
+    .image-diffrent{
+        margin-top: 10px;
+    }
+
+    .popular-courses .box h3{
+        font-size: 1.3rem;
+    }
+
+    .popular-courses .box .icons .fa{
+        font-size: 0.9rem;
+    }
+
+    .icons span{
+        font-size: 0.9rem;
+    }
+
+    .popular-courses .box .border-top i{
+        font-size: 0.9rem;
+    }
+
+    .popular-courses .read-more{
+        top: 220px;
+        left: 135px;
+    }
+    
+    .team .team-img{
+        width: 100%;
+    }
+
+    .team .icons{
+        left: 138px;
+    }
+
+    .bigwrapper footer .quick{
+        width: 100%;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .bigwrapper footer .contact{
+        width: 100%;
+        margin: 15px -15px;
+    }
+
+    .bigwrapper footer .news{
+        width: 100%;
+        margin: 15px -15px;
+    }
+
+    .bigwrapper footer .gallery{
+        width: 100%;
+        margin-right: -15px;
+        margin-left: -15px;
+
+    }
+
+    .bigwrapper .right{
+        width: 100%;
+        text-align: center;
+        font-size: 0.9rem;
+        
+    }
+
+   
+
+    .bigwrapper .left{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 0.9rem;
+    }
+
+    .top .owl-prev, .owl-next{
+        font-size: 1rem !important;
+    }
+
+    .top .owl-prev, .owl-prev{
+        font-size: 1rem !important;
+    }
+
+    header nav ul li{
+        left: -225px;
+        width: 200px;
+        background-color: white;
+        top: 50px;
+    }
+
+    header nav ul{
+        height: 350px;
+        width: 0px;
+    }
+
+
+}
+
+
+@media only screen and (max-width:440px){
+
+    .item1 .banner-text h1{
+        font-size: 1.8rem;
+    }
+
+    .item2 .banner-text h1{
+        font-size: 1.8rem;
+    }
+
+    .item1 .banner-text{
+        top: 80px;
+    }
+
+    .item2 .banner-text{
+        top: 80px;
+    }
+
+    .top .owl-next{
+        width: 40px;
+        height: 40px;
+    }
+
+    .top .owl-prev{
+        width: 40px;
+        height: 40px;
+    }
+
+    header nav .heading h1{
+        font-size: 2rem;
+    }
+
+    header nav ul li{
+        position: relative;
+        left: -232px;
+        width: 200px;
+        background-color: white;
+        top: 50px;
+    }
+
+    header nav ul{
+        height: 350px;
+        width: 0px;
+    }
+
+    header nav ul li a{
+        left: 60px;
+    }
+
+    .popular-courses .box h5{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width:391px){
+    .item2 .banner-text h1{
+        font-size: 1.5rem
+    }
+
+    .item2 .banner-text{
+        top: 90px;
+    }
+
+    .item1 .banner-text h1{
+        font-size: 1.5rem
+    }
+
+    .item1 .banner-text{
+        top: 90px;
+    }
+
+    .item1 .banner-text p{
+        font-size: 0.9rem;
+    }
+
+    .item2 .banner-text p{
+        font-size: 0.9rem;
+    }
+
+    .team .icons{
+        left: 110px !important;
+    }
+
+    header nav ul li{
+        left: -225px;
+        width: 200px;
+        background-color: white;
+        top: 50px;
+    }
+
+    header nav ul{
+        height: 350px;
+        width: 0px;
+    }
+}
+
+@media only screen and (max-width:394px){
+
+
+    .team .icons{
+        left: 114px;
+    }
+
+    .popular-courses .read-more{
+        top: 200px;
+        left: 115px;
+    }
+
+    .item1 .banner-text h1{
+        font-size: 1.5rem;
+    }
+
+    .item2 .banner-text h1{
+        font-size: 1.5rem;
+    }
+
+    .item2 .banner-text p{
+        font-size: 0.9rem;
+        line-height: 25px;
+    }
+
+    .item1 .banner-text p{
+        font-size: 0.9rem;
+        line-height: 25px;
+    }
+
+    .item2 .banner-text h5{
+        font-size: 1rem;
+    }
+
+    .item1 .banner-text h5{
+        font-size: 1rem;
+    }
+
+    header nav .none{
+        position: absolute;
+        right: 25px;
+    }
+
+    header nav ul li{
+        left: -225px;
+        width: 200px;
+        background-color: white;
+        top: 50px;
+    }
+
+    header nav ul{
+        height: 350px;
+        width: 0px;
+    }
+}
+
+
+@media only screen and (max-width:376px){
+    .team .icons{
+        left: 102px !important;
+    }
+
+    header nav ul li{
+        left: -78px;
+        width: 200px;
+        background-color: white;
+        top: 7px;
+    }
+
+    header nav ul{
+        height: 350px;
+        width: 0px;
+    }
+
+    .course .course-left .web-design{
+        top: 63px;
+    }
+
+    .popular-courses .read-more{
+        top: 190px;
+    }
+}
+
+@media only screen and (max-width:415px){
+    .team .icons{
+        left: 126px;
+    }
+
+    .item2 .banner-text h1{
+        font-size: 1.5rem;
+    }
+
+    .item1 .banner-text h1{
+        font-size: 1.5rem;
+    }
+
+    .item1 .banner-text p{
+        line-height: 25px;
+    }
+
+    .item2 .banner-text p{
+        line-height: 25px;
+    }
+
+    header nav ul li{
+        left: -225px;
+        width: 200px;
+        background-color: white;
+        top: 50px;
+    }
+
+    header nav ul{
+        height: 350px;
+        width: 0px;
+    }
+
+    .course .course-left .web-design{
+        top: 76px;
+    }
+}
+
+
+
+@media only screen and (max-width:391px){
+    .item1 .banner-text{
+        top: 80px;
+    }
+
+    .item2 .banner-text{
+        top: 80px;
+    }
+
+    .team .icons{
+        left: 110px;
+    }
+
+    header nav ul li{
+        left: -225px;
+        width: 200px;
+        background-color: white;
+        top: 50px;
+    }
+
+    header nav ul{
+        height: 350px;
+        width: 0px;
+    }
+
+    .course .course-left .web-design{
+        top: 70px;
+    }
+}
+
+
+@media only screen and (max-width:394px){
+
+
+    .team .icons{
+        left: 114px;
+    }
+
+    header nav ul li{
+        left: -225px;
+        width: 200px;
+        background-color: white;
+        top: 50px;
+    }
+
+    header nav ul{
+        height: 350px;
+        width: 0px;
+    }
+
+    .course .course-left .web-design{
+        top: 70px;
+    }
+}
+
+@media only screen and (max-width:361px){
+
+
+    .team .icons{
+        left: 97px !important;
+    }
+
+    .popular-courses .read-more{
+        left: 108px;
+        top: 180px;
+    }
+
+    header nav ul li{
+        left: -225px;
+        width: 200px;
+        background-color: white;
+        top: 50px;
+    }
+
+    header nav ul{
+        height: 350px;
+        width: 0px;
+    }
+
+    .course .course-left .web-design{
+        top: 58px;
+    }
+}
+
